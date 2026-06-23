@@ -6,15 +6,15 @@ DNS records define how names map to addresses and services.
 
 | Record | Purpose | Example |
 | --- | --- | --- |
-| A | Maps a name to an IPv4 address | `example.com -> 203.0.113.10` |
-| AAAA | Maps a name to an IPv6 address | `example.com -> 2001:db8::10` |
-| CNAME | Alias from one name to another | `www.example.com -> example.com` |
-| MX | Mail server for a domain | `example.com -> mail.example.com` |
-| TXT | Text metadata | SPF, DKIM, verification records |
-| NS | Authoritative name servers | `ns1.provider.com` |
-| SOA | Start of authority metadata | Zone ownership and timing |
-| PTR | Reverse DNS lookup | IP address to hostname |
-| SRV | Service location | Used by some service discovery systems |
+| A | Address record; maps a name to an IPv4 address | `example.com -> 203.0.113.10` |
+| AAAA | IPv6 address record; maps a name to an IPv6 address | `example.com -> 2001:db8::10` |
+| CNAME | Canonical Name; alias from one name to another | `www.example.com -> example.com` |
+| MX | Mail Exchanger; mail server for a domain | `example.com -> mail.example.com` |
+| TXT | Text record; stores text metadata | SPF, DKIM, verification records |
+| NS | Name Server; authoritative name servers | `ns1.provider.com` |
+| SOA | Start of Authority; zone ownership and timing metadata | Zone authority details |
+| PTR | Pointer record; reverse DNS lookup | IP address to hostname |
+| SRV | Service record; service location | Used by some service discovery systems |
 
 ## A Record
 
@@ -51,9 +51,9 @@ MX records have priorities. Lower numbers are preferred first.
 TXT records store text information. They are commonly used for:
 
 - Domain ownership verification
-- SPF email policy
-- DKIM email signing
-- DMARC email policy
+- SPF, or Sender Policy Framework, email policy
+- DKIM, or DomainKeys Identified Mail, email signing
+- DMARC, or Domain-based Message Authentication, Reporting, and Conformance, email policy
 
 ## Common Beginner Mistakes
 

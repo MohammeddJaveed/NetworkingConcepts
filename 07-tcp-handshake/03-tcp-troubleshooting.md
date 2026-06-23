@@ -2,6 +2,13 @@
 
 TCP troubleshooting is easier when you separate network reachability, transport connectivity, encryption, and application behavior.
 
+Abbreviations used here:
+
+- DNS: Domain Name System
+- TCP: Transmission Control Protocol
+- TLS: Transport Layer Security
+- ICMP: Internet Control Message Protocol
+
 ## Troubleshooting Flow
 
 ```mermaid

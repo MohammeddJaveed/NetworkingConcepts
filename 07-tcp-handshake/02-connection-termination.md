@@ -1,6 +1,6 @@
 # TCP Connection Termination
 
-TCP connections are normally closed using FIN and ACK packets. Either side can start the close process.
+TCP connections are normally closed using FIN and ACK packets. FIN means finish, and ACK means acknowledgement. Either side can start the close process.
 
 ## Visual Overview
 

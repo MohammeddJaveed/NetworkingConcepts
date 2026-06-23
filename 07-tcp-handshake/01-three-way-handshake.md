@@ -4,6 +4,8 @@ The TCP three-way handshake establishes a TCP connection before data is exchange
 
 It confirms that both sides can send and receive traffic.
 
+TCP stands for Transmission Control Protocol. The handshake uses TCP flags: SYN means synchronize, ACK means acknowledgement, and SYN-ACK means the server is both synchronizing and acknowledging the client's request.
+
 ## Visual Overview
 
 ```mermaid
@@ -41,7 +43,7 @@ After this, application data can flow.
 When your browser connects to an HTTPS website:
 
 1. TCP handshake happens with destination port `443`.
-2. TLS handshake establishes encryption.
+2. TLS, or Transport Layer Security, performs its own handshake to establish encryption.
 3. HTTP request is sent inside the encrypted connection.
 4. The server returns the web response.
 

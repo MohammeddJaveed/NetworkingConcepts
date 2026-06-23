@@ -29,7 +29,7 @@ sequenceDiagram
 | Stub resolver | DNS client on your device |
 | Recursive resolver | Performs the lookup on behalf of the client |
 | Root server | Points to top-level domain servers |
-| TLD server | Points to authoritative servers for domains |
+| TLD server | Top-Level Domain server; points to authoritative servers for domains |
 | Authoritative server | Holds the actual DNS records for a domain |
 
 ## DNS Caching
@@ -44,7 +44,7 @@ Caching can happen at:
 - Recursive resolver
 - ISP resolver
 
-Each DNS record has a TTL, or Time To Live. TTL tells resolvers how long they can cache the answer.
+Each DNS record has a TTL, or Time To Live. TTL tells resolvers how long they can cache the answer before asking DNS again.
 
 ## Example
 

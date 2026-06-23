@@ -1,6 +1,6 @@
 # DHCP DORA Process
 
-DORA describes the four main messages used when a device gets an IP address from DHCP:
+DORA is a memory aid for the four main messages used when a device gets an IP address from DHCP:
 
 1. Discover
 2. Offer

@@ -18,6 +18,7 @@ Read the folders in order:
 8. [Interview Questions](08-interview-questions)
 9. [Cheatsheets](cheatsheets)
 10. [Diagrams](diagrams)
+11. [Glossary](glossary.md)
 
 ## Topics Covered
 
@@ -80,6 +81,10 @@ Read the folders in order:
 - [Home Network Diagram](diagrams/home-network.md)
 - [Cloud VPC Diagram](diagrams/cloud-vpc.md)
 
+### Reference
+
+- [Glossary of Networking Abbreviations](glossary.md)
+
 ## What You Should Understand After Reading
 
 - How devices communicate across local networks and the internet
@@ -97,3 +102,4 @@ Read the folders in order:
 - Explain why a private subnet can access the internet through NAT but cannot be reached directly from the internet.
 - Memorize common ports, but also understand why each protocol uses them.
 - Practice troubleshooting from Layer 1 upward before blaming the application.
+- Use the [glossary](glossary.md) whenever an abbreviation is unfamiliar.

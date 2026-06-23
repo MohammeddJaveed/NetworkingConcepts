@@ -4,17 +4,17 @@
 
 | Port | Protocol | Service |
 | ---: | --- | --- |
-| `20/21` | TCP | FTP |
-| `22` | TCP | SSH |
-| `25` | TCP | SMTP |
-| `53` | UDP/TCP | DNS |
-| `67/68` | UDP | DHCP |
-| `80` | TCP | HTTP |
-| `110` | TCP | POP3 |
-| `123` | UDP | NTP |
-| `143` | TCP | IMAP |
-| `443` | TCP | HTTPS |
-| `993` | TCP | IMAPS |
+| `20/21` | TCP | FTP, File Transfer Protocol |
+| `22` | TCP | SSH, Secure Shell |
+| `25` | TCP | SMTP, Simple Mail Transfer Protocol |
+| `53` | UDP/TCP | DNS, Domain Name System |
+| `67/68` | UDP | DHCP, Dynamic Host Configuration Protocol |
+| `80` | TCP | HTTP, Hypertext Transfer Protocol |
+| `110` | TCP | POP3, Post Office Protocol version 3 |
+| `123` | UDP | NTP, Network Time Protocol |
+| `143` | TCP | IMAP, Internet Message Access Protocol |
+| `443` | TCP | HTTPS, HTTP Secure |
+| `993` | TCP | IMAPS, IMAP over TLS |
 | `3306` | TCP | MySQL |
 | `5432` | TCP | PostgreSQL |
 | `6379` | TCP | Redis |

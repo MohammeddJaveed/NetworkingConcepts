@@ -4,15 +4,15 @@
 
 | Concept | Quick Meaning |
 | --- | --- |
-| IP address | Logical address for network communication |
-| MAC address | Local hardware address |
+| IP address | Internet Protocol address; logical address for network communication |
+| MAC address | Media Access Control address; local hardware address |
 | Subnet | Smaller network inside a larger network |
 | Router | Connects different networks |
 | Switch | Connects devices in the same LAN |
 | Firewall | Allows or blocks traffic |
-| DNS | Converts names to IP addresses |
-| DHCP | Automatically assigns network settings |
-| NAT | Translates private addresses to public addresses |
+| DNS | Domain Name System; converts names to IP addresses |
+| DHCP | Dynamic Host Configuration Protocol; automatically assigns network settings |
+| NAT | Network Address Translation; translates private addresses to public addresses |
 
 ## OSI Layers
 
