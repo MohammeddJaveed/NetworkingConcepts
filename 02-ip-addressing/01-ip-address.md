@@ -1,42 +1,85 @@
 # IP Address
 
-IP Address = Internet Protocol Address
+IP stands for Internet Protocol.
 
-Used to uniquely identify devices in a network.
+An IP address uniquely identifies a device in a network.
+
+Think of it like a house address.
+
+---
+
+## Example
+
+192.168.1.10
+
+Every device on a network must have a unique IP address.
+
+---
+
+## Purpose
+
+IP addresses help:
+
+- Identify devices
+- Locate devices
+- Route packets
+
+---
+
+## Types of IP Addresses
+
+### IPv4
+
+32-bit address
 
 Example:
 
 192.168.1.10
 
-## Types
+---
 
-### Public IP
+### IPv6
 
-Accessible from the internet.
+128-bit address
 
 Example:
+
+2001:db8::1
+
+Created because IPv4 addresses are limited.
+
+---
+
+## Network Portion and Host Portion
+
+Example:
+
+192.168.1.10/24
+
+Network:
+192.168.1
+
+Host:
+10
+
+---
+
+## Public and Private IP
+
+### Public
+
+Reachable from internet.
+
+Example:
+
 8.8.8.8
 
-### Private IP
+### Private
 
 Used inside private networks.
 
-Ranges:
-
-10.0.0.0 – 10.255.255.255
-
-172.16.0.0 – 172.31.255.255
-
-192.168.0.0 – 192.168.255.255
-
-## IPv4 Structure
-
 Example:
 
 192.168.1.10
 
-Network Portion:
-192.168.1
-
-Host Portion:
-10
+---
