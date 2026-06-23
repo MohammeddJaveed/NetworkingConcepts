@@ -1,21 +1,23 @@
-<<<<<<< HEAD
-
-=======
 # Networking Fundamentals
 
-This repository explains core networking concepts in simple language for DevOps, cloud, system design, and beginner networking learners.
+This repository is a structured learning path for networking fundamentals. It is written for DevOps, cloud, system administration, Kubernetes, and system design learners who need clear explanations with practical examples.
 
-The notes are written to be practical: each topic explains what the concept means, why it matters, how it works, and what mistakes beginners should avoid.
+Most lessons include Mermaid diagrams. GitHub renders Mermaid blocks as visual diagrams, so the notes can be read directly in the browser.
 
-## How to Use This Repository
+## Learning Path
 
-Read the files in order if you are new to networking:
+Read the folders in order:
 
-1. `01-network-basics`
-2. `02-ip-addressing`
-3. `03-vpc-networking`
-
-Most files include Mermaid diagrams. GitHub renders Mermaid blocks as visual diagrams, so the notes can be read directly in the browser without downloading separate images.
+1. [Network Basics](01-network-basics)
+2. [IP Addressing](02-ip-addressing)
+3. [VPC Networking](03-vpc-networking)
+4. [Ports and Protocols](04-ports-and-protocols)
+5. [DNS](05-dns)
+6. [DHCP](06-dhcp)
+7. [TCP Handshake](07-tcp-handshake)
+8. [Interview Questions](08-interview-questions)
+9. [Cheatsheets](cheatsheets)
+10. [Diagrams](diagrams)
 
 ## Topics Covered
 
@@ -42,24 +44,56 @@ Most files include Mermaid diagrams. GitHub renders Mermaid blocks as visual dia
 - [Internet Gateway](03-vpc-networking/05-internet-gateway.md)
 - [NAT Gateway](03-vpc-networking/06-nat-gateway.md)
 
-## Learning Goal
+### 04 - Ports and Protocols
 
-By the end of these notes, you should understand:
+- [Ports](04-ports-and-protocols/01-ports.md)
+- [TCP](04-ports-and-protocols/02-tcp.md)
+- [UDP](04-ports-and-protocols/03-udp.md)
+- [Common Protocols](04-ports-and-protocols/04-common-protocols.md)
 
-- How devices communicate over a network
-- How data moves through OSI and TCP/IP layers
-- How IPv4, IPv6, subnets, and CIDR blocks work
-- Why public and private IP addresses exist
-- How cloud networks such as AWS VPCs are structured
-- How public subnets, private subnets, route tables, internet gateways, and NAT gateways work together
+### 05 - DNS
 
-## Audience
+- [What is DNS?](05-dns/01-what-is-dns.md)
+- [DNS Resolution](05-dns/02-dns-resolution.md)
+- [DNS Record Types](05-dns/03-dns-record-types.md)
 
-These notes are useful for:
+### 06 - DHCP
 
-- DevOps learners
-- Cloud engineers
-- System administrators
-- Software engineers preparing for system design
-- Beginners learning AWS, Azure, GCP, Kubernetes, or infrastructure basics
->>>>>>> ec07d22 ( Netwoking concepts learning)
+- [What is DHCP?](06-dhcp/01-what-is-dhcp.md)
+- [DHCP DORA Process](06-dhcp/02-dhcp-dora-process.md)
+
+### 07 - TCP Handshake
+
+- [TCP Three-Way Handshake](07-tcp-handshake/01-three-way-handshake.md)
+- [TCP Connection Termination](07-tcp-handshake/02-connection-termination.md)
+- [TCP Troubleshooting](07-tcp-handshake/03-tcp-troubleshooting.md)
+
+### 08 - Interview Questions
+
+- [Networking Interview Questions](08-interview-questions/01-networking-questions.md)
+- [Scenario-Based Questions](08-interview-questions/02-scenario-questions.md)
+
+### Cheatsheets and Diagrams
+
+- [Networking Cheatsheet](cheatsheets/networking-cheatsheet.md)
+- [Port Cheatsheet](cheatsheets/ports-cheatsheet.md)
+- [Home Network Diagram](diagrams/home-network.md)
+- [Cloud VPC Diagram](diagrams/cloud-vpc.md)
+
+## What You Should Understand After Reading
+
+- How devices communicate across local networks and the internet
+- How OSI and TCP/IP layers organize network communication
+- How IPv4, IPv6, CIDR, and subnetting work
+- Difference between public and private IP addresses
+- How VPCs, subnets, route tables, internet gateways, and NAT gateways work
+- How ports, TCP, UDP, DNS, and DHCP support real applications
+- How to reason through common troubleshooting and interview scenarios
+
+## Recommended Practice
+
+- Draw the packet path for a browser opening a website.
+- Calculate subnet sizes from CIDR notation.
+- Explain why a private subnet can access the internet through NAT but cannot be reached directly from the internet.
+- Memorize common ports, but also understand why each protocol uses them.
+- Practice troubleshooting from Layer 1 upward before blaming the application.
